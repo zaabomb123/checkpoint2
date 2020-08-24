@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+}
+nav{display: flex;}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-docplanner{
+    width: 268px;
+ text-align: left;
+    height: 33px;
+}
+/* .section__inner{
+    position: ;
+} */
+.linkNavBar{
+    color: #ababab;
+    display: block;
+    text-decoration: none;
+    padding: 0 .6em;
+    align-content: flex-end;
+    position: relative;
+}
+.linkNavBar1{
+    color: #00b39b;
+    display: block;
+    text-decoration: none;
+    padding: 0 .6em;
+    position: relative;
+}
+.lead__logo{
+    display: block;
+    margin: 0 auto;
+
+}
+h2{
+text-align: center;
+    color: #00b39b;   
+}
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s;
+}
+.main-menu .is-current, .main-menu .is-current a {
+    color: #00b39b;
+}
+.main-menu li {
+    display: inline-block;
+}
+.lead h1 {
+    text-align: center;
+}
+.paragr{
+    display: flex;
+}
+.text{
+    /* display: flex; */
+    margin: 16 auto; 
+    width: 70%;
+    padding: 18px;
+}
+.p{
+    display: flex;
+    justify-content: center;
+}
+.firstone{
+    margin: 16 ;
+    background: #00ccb1;
+    padding: 10px;
+
+}
+h2{
+    font-size: .875em;
+    font-weight: 400;
+    margin: 0;
+    color: hsla(0,0%,100%,.7);
+}
+h1{
+    font-size: 1.625em;
+    color: #fff;
+    margin-top: .3em;
+}
+.pic{
+max-width: 100%;
+height: auto;
+}
+.linkNavBar2{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 3.5em 0 1.5em;
+    height: 40px;
+    -webkit-appearance: none;
+    text-transform: uppercase;
+    outline: 0;
+}
+.secondone{
+    
+    background: #3d83df;   
+    padding: 10px;
+}
+h2{
+    font-size: .875em;
+    font-weight: 400;
+    margin: 0;
+    color: hsla(0,0%,100%,.7);
+}
+h1{
+    font-size: 1.625em;
+    color: #fff;
+    margin-top: .3em;
+}
+.brands h1 {
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+}
+h1, h2, h3, h4 {
+    margin: 1em 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+}
+.brands__logos a path {
+    transition: all .2s ease 0s;
+    fill: hsla(0,0%,67%,.7);
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+    color: #3d83df;
+    outline: 0;
+    transition: all .2s ease 0s;
+}
+.brands__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    width: 168px;
+    padding: 5px 0;
+}
+.brands__logos {
+    float: left;
+    font-size: 0;
+    width: 67%;
+    list-style: none;
+    }
+.stats__item {
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+        height: 250px;
+        text-align: center;
+        padding: 15px;
+        font-size: .8125em;
+        }
